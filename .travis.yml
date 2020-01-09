@@ -19,7 +19,7 @@ script:
 
 cache:
   yarn: true
-  timeout: 20000
+  timeout: 10000
   directories:
     - node_modules
 
