@@ -10,7 +10,6 @@ before_install:
   - export PATH="$HOME/.yarn/bin:$PATH"
 
 install:
-  - bundle install
   - chmod +x ./build.sh
   - ./build.sh
 
