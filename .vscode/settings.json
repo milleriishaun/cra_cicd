@@ -6,5 +6,29 @@
     },
     "cSpell.words": [
         "xenial"
-    ]
+    ],
+    // "vim.useCtrlKeys": false,
+    "vim.handleKeys": {
+        // "<C-f>": false,
+        // "<C-u>": false,
+        //I "<C-d>": false,
+        "<C-c>": false,
+        "<C-v>": false,
+        // "<C-r>": false,
+    },
+    "vim.foldfix": true,
+    "vim.easymotion": true,
+    // f for vimium find
+    "vim.normalModeKeyBindingsNonRecursive": [{
+            // space: create shortcut to first letter of very word
+            "before": [" "],
+            "after": ["leader", "leader", "leader", "b", "d", "w"]
+        }
+        // Q: start of word backwords
+        // {
+        //     "before": ["Q"],
+        //     "after": ["leader", "leader", "b"]
+        // }
+    ],
+    "vim.easymotionKeys": "hklyuipnm,qwetzxcvbasdgjf"
 }
